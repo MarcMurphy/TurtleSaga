@@ -1,0 +1,232 @@
+﻿Build started 12/10/2014 3:35:53 PM.
+     1>Project "C:\Users\markmurphy\Desktop\RWM_P1_2014_B-master\Platformer1\Platformer0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BabyTurtle.cpp BaseObject.cpp BodyFactory.cpp Box2D\Collision\b2BroadPhase.cpp Box2D\Collision\b2CollideCircle.cpp Box2D\Collision\b2CollideEdge.cpp Box2D\Collision\b2CollidePolygon.cpp Box2D\Collision\b2Collision.cpp Box2D\Collision\b2Distance.cpp Box2D\Collision\b2DynamicTree.cpp Box2D\Collision\b2TimeOfImpact.cpp Box2D\Collision\Shapes\b2ChainShape.cpp Box2D\Collision\Shapes\b2CircleShape.cpp Box2D\Collision\Shapes\b2EdgeShape.cpp Box2D\Collision\Shapes\b2PolygonShape.cpp Box2D\Common\b2BlockAllocator.cpp Box2D\Common\b2Draw.cpp Box2D\Common\b2Math.cpp Box2D\Common\b2Settings.cpp Box2D\Common\b2StackAllocator.cpp Box2D\Common\b2Timer.cpp Box2D\Dynamics\b2Body.cpp Box2D\Dynamics\b2ContactManager.cpp Box2D\Dynamics\b2Fixture.cpp Box2D\Dynamics\b2Island.cpp Box2D\Dynamics\b2World.cpp Box2D\Dynamics\b2WorldCallbacks.cpp Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp Box2D\Dynamics\Contacts\b2CircleContact.cpp Box2D\Dynamics\Contacts\b2Contact.cpp Box2D\Dynamics\Contacts\b2ContactSolver.cpp Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp Box2D\Dynamics\Contacts\b2PolygonContact.cpp Box2D\Dynamics\Joints\b2DistanceJoint.cpp Box2D\Dynamics\Joints\b2FrictionJoint.cpp Box2D\Dynamics\Joints\b2GearJoint.cpp Box2D\Dynamics\Joints\b2Joint.cpp Box2D\Dynamics\Joints\b2MotorJoint.cpp Box2D\Dynamics\Joints\b2MouseJoint.cpp Box2D\Dynamics\Joints\b2PrismaticJoint.cpp Box2D\Dynamics\Joints\b2PulleyJoint.cpp Box2D\Dynamics\Joints\b2RevoluteJoint.cpp Box2D\Dynamics\Joints\b2RopeJoint.cpp Box2D\Dynamics\Joints\b2WeldJoint.cpp Box2D\Dynamics\Joints\b2WheelJoint.cpp Box2D\Rope\b2Rope.cpp Bridge.cpp Butterfly.cpp Catapult.cpp CollisionIdentifier.cpp ContactListener.cpp Elevator.cpp Game.cpp GearPlatform.cpp KeyHandler.cpp main.cpp Nest.cpp ObjectManager.cpp Platform.cpp Player.cpp PressureSwitch.cpp PrismaticBox.cpp PushableBlocks.cpp Rope.cpp SoundManager.cpp TextureManager.cpp Tree.cpp
+         Tree.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(173): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(174): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(175): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(176): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(178): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(183): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(184): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(185): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(186): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(187): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(191): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(192): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(193): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(194): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\tree.cpp(195): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         TextureManager.cpp
+         SoundManager.cpp
+         Rope.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(62): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(63): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(65): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(72): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(74): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(75): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(80): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(81): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(82): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(83): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(88): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(89): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(90): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\rope.cpp(91): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+         PushableBlocks.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(21): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(29): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(30): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(32): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(33): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(46): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(47): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(49): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pushableblocks.cpp(50): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         PrismaticBox.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\prismaticbox.cpp(46): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\prismaticbox.cpp(47): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\prismaticbox.cpp(53): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\prismaticbox.cpp(54): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+         PressureSwitch.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pressureswitch.cpp(50): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\pressureswitch.cpp(51): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+         Player.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(109): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(110): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(111): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(112): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(116): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(117): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(118): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\player.cpp(119): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+         Platform.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(35): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(43): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(44): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(46): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(47): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(60): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(61): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(63): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\platform.cpp(64): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         ObjectManager.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(61): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(62): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(83): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(84): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(102): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(103): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(129): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(169): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(177): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(181): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(202): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\objectmanager.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+         Nest.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\nest.cpp(25): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\nest.cpp(26): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\nest.cpp(29): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\nest.cpp(30): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\nest.cpp(34): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\nest.cpp(35): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+         main.cpp
+         KeyHandler.cpp
+         GearPlatform.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(110): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(111): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(113): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(114): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(120): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(121): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(122): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\gearplatform.cpp(123): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+         Game.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(156): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(160): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(164): warning C4244: 'argument' : conversion from 'const int' to 'float32', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(164): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(168): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(172): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(204): warning C4244: 'argument' : conversion from 'clock_t' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\game.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+         Elevator.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(72): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(73): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(75): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(82): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(84): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(85): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(93): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(94): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(96): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(103): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(115): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(116): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(118): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(128): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(129): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(136): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(137): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(138): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(139): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(144): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(145): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(146): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(151): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(152): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(153): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(154): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(158): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(159): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(160): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(166): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(167): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(174): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\elevator.cpp(175): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+         ContactListener.cpp
+         CollisionIdentifier.cpp
+         Catapult.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(173): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(174): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(175): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(176): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(180): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(181): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(182): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(183): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(187): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(188): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(189): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(190): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(195): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(196): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(197): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(198): warning C4244: '=' : conversion from 'float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(204): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(205): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(206): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(207): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(210): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\catapult.cpp(211): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+         Butterfly.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(33): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(54): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(55): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(56): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(57): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(63): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(64): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(65): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(72): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(73): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\butterfly.cpp(74): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         Bridge.cpp
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(62): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(64): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(65): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(66): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(72): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(73): warning C4244: '=' : conversion from 'const float32' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(74): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\markmurphy\desktop\rwm_p1_2014_b-master\platformer1\bridge.cpp(77): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         b2Rope.cpp
+         b2WheelJoint.cpp
+         b2WeldJoint.cpp
+         b2RopeJoint.cpp
+         b2RevoluteJoint.cpp
+         b2PulleyJoint.cpp
+         b2PrismaticJoint.cpp
+         b2MouseJoint.cpp
+         b2MotorJoint.cpp
+     1>Done Building Project "C:\Users\markmurphy\Desktop\RWM_P1_2014_B-master\Platformer1\Platformer0.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.62
